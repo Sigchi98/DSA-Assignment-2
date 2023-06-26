@@ -7,8 +7,8 @@ public:
     
         // Find the minimum and maximum values in the array
         for (int i = 0; i < n; i++) {
-            minVal = std::min(minVal, nums[i]);
-            maxVal = std::max(maxVal, nums[i]);
+            minVal = min(minVal, nums[i]);
+            maxVal = max(maxVal, nums[i]);
         }
     
         // Check if it's possible to obtain a smaller score
