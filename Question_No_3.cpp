@@ -16,7 +16,7 @@ public:
         }
 
         if (countPlus1 > 0 && countMinus1 > 0)
-            maxLength = std::max(maxLength, countPlus1 + countMinus1);
+            maxLength = max(maxLength, countPlus1 + countMinus1);
     }
 
     return maxLength;
